@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: html
-          image: loveisall/html:latest
+          image: loveisall/html:4
           ports:
             - containerPort: 80
 ---
