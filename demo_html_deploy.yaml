@@ -15,7 +15,7 @@ spec:
       containers:
         - name: html
           imagePullPolicy: Always
-          image: loveisall/html:latest
+          image: loveisall/html
           ports:
             - containerPort: 80
 ---
